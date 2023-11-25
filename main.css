@@ -1,0 +1,135 @@
+.back-img {
+    width: 100%;
+    height:100%;
+}
+.back-grid {
+    display: grid;
+    position: relative;
+    z-index: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 160px;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    align-items: center;
+    column-gap: 2px;
+    z-index: 10;
+}
+
+.left-head {
+    width: 25%;
+    height: 60%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 200px;
+    opacity: 0.6;
+    column-gap: 2px;
+}
+
+.ham-menu {
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    background-image:linear-gradient(lightgray, grey, lightgray);
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    justify-content: space-around;
+    
+}
+.other-menu {
+    display: flex;
+    flex-direction: row;
+    width:69%;
+    background-image:linear-gradient(lightgray, grey, lightgray);
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle-head {
+    display: flex;
+    width:50%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 500px;
+    column-gap: 2px ;
+}
+.ml {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(lightgray, grey, lightgray);
+    justify-content: space-around;
+    align-items: start;
+    height:96px;
+    width:20%;
+    z-index: 1;
+    opacity: 0.6;
+}
+.mm {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(lightgray, grey, lightgray);
+    justify-content: space-around;
+    align-items: center;
+    height:96px;
+    width:80%;
+    opacity: 0.6;
+
+}
+.mr {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(lightgray, grey, lightgray);
+    justify-content: space-around;
+    align-items: end;
+    height:96px;
+    width:20%;
+    opacity: 0.6;
+}
+
+.search-bar {
+    width:70%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    z-index: 0;
+}
+.search-bar:hover {
+    opacity: 0.8;
+}
+
+.right-head {
+    width:25%;
+    background-image: linear-gradient(lightgray, grey, lightgray);
+    height: 60%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0 20px 20px 0;
+    min-width: 200px;
+    opacity: 0.6;
+}
+footer {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 40px;
+    height: 150px;
+    background-image: linear-gradient(lightgray, grey, lightgray);
+    opacity: 0.6;
+    color: white;
+    border-radius: 20px;
+}
