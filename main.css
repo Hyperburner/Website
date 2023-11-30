@@ -1,6 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .back-img {
-    width: 100%;
-    height:100%;
+   background-blend-mode: overlay;
 }
 .back-grid {
     display: grid;
@@ -91,10 +94,15 @@
     flex-direction: row;
     background-image: linear-gradient(lightgray, grey, lightgray);
     justify-content: space-around;
-    align-items: end;
+    align-items: center;
     height:96px;
     width:20%;
     opacity: 0.6;
+}
+.contact {
+    color: white;
+    font-size: larger;
+    
 }
 
 .search-bar {
@@ -130,6 +138,10 @@ footer {
     height: 150px;
     background-image: linear-gradient(lightgray, grey, lightgray);
     opacity: 0.6;
+
     color: white;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
 }
+
